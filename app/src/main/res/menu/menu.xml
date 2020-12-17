@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_scheduler"
+            android:icon="@drawable/ic_reminder"
+            android:title="@string/scheduler" />
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_about_app"
+            android:icon="@drawable/ic_about_app"
+            android:title="@string/about_app" />
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_action_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_action_exit"
+            android:title="@string/exit" />
+
+
+    </group>
+
+</menu>

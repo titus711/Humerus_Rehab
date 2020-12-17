@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">HUMERUS REHAB</string>
+    <string name="welcome_text">Rehabilitation restores\n
+        muscle strength, \n joint motion \n and flexibility.</string>
+
+    <string name="second_welcome_text">
+        Non-operative\n
+        treatment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="scheduler">Scheduler</string>
+    <string name="exit">Exit</string>
+    <string name="share">Share</string>
+    <string name="non_operative_treatment">Non-operative treatment</string>
+    <string name="humerus_rehab">HUMERUS REHAB</string>
+    <string name="_20">20</string>
+    <string name="name_of_exercise">NAME OF EXERCISE</string>
+    <string name="start">START</string>
+    <string name="voice_instructions">VOICE INSTRUCTIONS</string>
+    <string name="view_exercise">VIEW EXERCISE</string>
+    <string name="another_save">SAVE</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="easy">5 seconds</string>
+    <string name="medium">1 minute</string>
+    <string name="hard">5 minutes</string>
+    <string name="text_instructions">Text Instructions</string>
+    <string name="about_app">About App</string>
+    <string name="humerus_intro_text">\n
+
+
+<b>The humerus is the arm bone between your shoulder and your elbow.</b>\n\n
+There are two types of humerus fractures based on the location of the break(s).
+Trauma from a fall or accident are often the cause of this type of fracture.\n\n
+Treatment varies depending on the type and severity of the break but may include the use of a sling, brace, splint or cast and/or surgery.\n\n
+<b>What is a humerus fracture?</b>\n\n
+The humerus — also known as the upper arm bone — is a long bone that runs from the shoulder and scapula (shoulder blade) to the elbow. \n\n Fractures of the humerus are classified in one of two ways: <b>proximal humerus fracture or humerus shaft fracture.</b>\n\n
+
+A <b>proximal humerus fracture,</b> usually occurs close to the shoulder joint and can be located at different levels with different fracture patterns: simple or comminuted.\n\n A <b>humerus shaft fracture,</b> on the other hand, is one that is localized at the mid portion of the upper arm.\n\n
+
+<b>What causes a humerus fracture?</b>\n\n
+A broken arm is a common injury and is usually a consequence of a fall with an outstretched hand, a car crash or some other type of accident.\n\n
+
+<b>What are the symptoms of a humerus fracture?</b>\n\n
+Symptoms vary depending on the specific type of fracture but may include:\n\n
+
+\-<i> Pain</i>\n
+
+\-<i> Swelling and bruising</i>\n
+
+
+        \-<i> Numbness/Tingling in arm, forearm, or hand</i>\n
+
+
+\-<i> Inability to move the shoulder</i>\n
+
+\-<i> A grinding sensation when the shoulder is moved</i>\n
+
+\-<i> Deformity — “It does not look right.”</i>\n
+
+\-<i> Occasionally bleeding (open fracture)</i>\n
+
+\-<i> Loss of normal use of the arm if a nerve injury occurs</i>\n\n
+
+<b>What is the treatment for a humerus fracture?</b>\n\n
+<b>Proximal Humeral Fracture</b>\n\n
+Most fractures of the proximal humerus can be treated without surgery if the bone fragments are not shifted out of position (displaced). \n\n If the fragments are shifted out of position, surgery is often performed to allow earlier mobility. However, other factors are also considered when deciding between surgical fixation or nonoperative treatment.\n\n
+
+Nonoperative treatment is usually with a sling or shoulder immobilizer with no shoulder mobility for the first two weeks.\n\n Thereafter, the patient will be given weekly exercises to slowly increase the shoulder’s range of motion.\n\n An X-ray of the shoulder will be taken on a weekly or biweekly (every two weeks) basis to confirm the fracture is healing properly.\n\n
+
+Surgery usually involves fixation of the fracture fragments with plates, screws or pins. \n\nSevere fractures with previous arthroscopy (joint degeneration) may require shoulder replacement. Mobilization with physical therapy is begun immediately following surgery.\n\n
+
+<b>Humerus Shaft Fracture</b>\n\n
+A humerus shaft fracture may be treated with or without surgery, depending on the fracture pattern and associated injuries (i.e., nerve injury or open fracture).\n\n A temporary splint extending from the shoulder to the forearm and holding the elbow bent at 90 degrees can be used for initial management of the fracture.\n\n
+
+Nonoperative treatment usually includes the placement of fracture bracing that will be replaced by a cylindrical brace (Sarmiento brace) three to four weeks later that fits the upper arm while leaving the elbow free.\n\n The doctor will tell you how long to wear the cast or splint and will remove it at the right time.\n\n It may take several weeks to several months for the broken arm to heal completely.\n\n
+
+Rehabilitation involves gradually increasing activities to restore muscle strength, joint motion and flexibility.\n\n The patient’s cooperation is essential to the rehabilitation process. The patient must complete range of motion, strengthening and other exercises prescribed by the doctor on a daily basis.\n\n Rehabilitation will continue until the muscles, ligaments and other soft tissues perform normally.\n\n
+
+Surgery usually involves internal fixation of the fragments with plates, screws or a nail.\n\n The rehabilitation differs slightly from nonoperative treatment, with no splints or cast. The patient is usually given a sling for comfort and arm support.\n\n Elbow exercises may be started immediately after surgery, while shoulder exercises may be delayed for a few weeks based on the fracture pattern.\n\n
+
+        <b>Some of the Interventions for Humerus Fractures include:</b>\n\n
+        <i><b>Range of Motion:</b></i>\n
+        \-<i> Pendulums</i>\n
+\-<i> Pulleys</i>\n
+\-<i> Cane Exercises</i>\n
+\-<i> Wall slides</i>\n
+\-<i> Table slides</i>\n\n
+
+
+        You should not feel pain during an exercise. Talk to your doctor or physio therapist
+        when you have any pain during exercising.\n\n
+
+
+
+
+
+
+
+</string>
+
+    <string name="developer">  <b>NB. Kindly note that the Humerus Rehab application was motivated by a real life incident that involved a car accident that broke my left humerus and hence i went through the rehabilitation programme under the doctors instructions and monitoring.</b>\n\n
+
+        <b>Developed by \: \n
+        Titus Nangi\n
+        titusnangi@gmail.com\n\n
+    </b></string>
+    <string name="what_you_need_to_know_about_the_humerus">What you need to know about the Humerus</string>
+    <string name="cancel">CANCEL</string>
+    <string name="save_reminder">SAVE REMINDER</string>
+    <string name="exercise_title">Exercise title</string>
+    <string name="exercise_details">Exercise details</string>
+    <string name="reminder">Schedule Exercise</string>
+    <string name="save">SAVE</string>
+    <string name="select_date">SELECT DATE</string>
+    <string name="select_time">SELECT TIME</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="record_my_schedule">EVENT RECORDING</string>
+    <string name="time_and_date_shown">Time and Date shown</string>
+    <string name="snooze">Snooze</string>
+    <string name="message_comes_here">message comes here</string>
+    <string name="time_message">time message</string>
+    <string name="create_event">CREATE EVENT</string>
+    <string name="hello">Hello</string>
+
+
+</resources>
