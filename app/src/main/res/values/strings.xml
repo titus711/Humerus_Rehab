@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HUMERUS REHAB</string>
+    <string name="app_name">Humerus Rehab</string>
     <string name="welcome_text">Rehabilitation restores\n
         muscle strength, \n joint motion \n and flexibility.</string>
 
@@ -43,7 +43,18 @@
     <string name="humerus_intro_text">\n
 
 
-<b>The humerus is the arm bone between your shoulder and your elbow.</b>\n\n
+
+        <b>Purpose of the application</b>\n\n
+
+        A broken humerus can make everyday tasks that involve movement of your shoulder very difficult. To regain maximum functionality after a humerus fracture injury, it is important to follow the specific humerus fracture rehabilitation exercises prescribed by your physical therapist.\n\n
+        This application is a general rehabilitation programme that provides a wide range of exercises.\n\nTo ensure that the programme is safe and effective for you,
+        it should be performed under your doctor\'s or physical therapist\'s supervision. Talk to your doctor or physical therapist about which exercises will best help you meet your rehabilitation goals.\n\n
+
+        <b>What is a Humerus?</b>\n\n
+
+                The humerus is the arm bone between your shoulder and your elbow.\n\n
+
+
 There are two types of humerus fractures based on the location of the break(s).
 Trauma from a fall or accident are often the cause of this type of fracture.\n\n
 Treatment varies depending on the type and severity of the break but may include the use of a sling, brace, splint or cast and/or surgery.\n\n
@@ -80,16 +91,16 @@ Symptoms vary depending on the specific type of fracture but may include:\n\n
 <b>Proximal Humeral Fracture</b>\n\n
 Most fractures of the proximal humerus can be treated without surgery if the bone fragments are not shifted out of position (displaced). \n\n If the fragments are shifted out of position, surgery is often performed to allow earlier mobility. However, other factors are also considered when deciding between surgical fixation or nonoperative treatment.\n\n
 
-Nonoperative treatment is usually with a sling or shoulder immobilizer with no shoulder mobility for the first two weeks.\n\n Thereafter, the patient will be given weekly exercises to slowly increase the shoulder’s range of motion.\n\n An X-ray of the shoulder will be taken on a weekly or biweekly (every two weeks) basis to confirm the fracture is healing properly.\n\n
+Nonoperative treatment is usually with a sling or shoulder immobilizer with no shoulder mobility for the first two weeks.\n\n Thereafter, the patient will be given weekly exercises to slowly increase the shoulder’s range of motion.\n\n An X-ray of the shoulder will be taken on a weekly or biweekly (every two weeks) basis to confirm if the fracture is healing properly.\n\n
 
-Surgery usually involves fixation of the fracture fragments with plates, screws or pins. \n\nSevere fractures with previous arthroscopy (joint degeneration) may require shoulder replacement. Mobilization with physical therapy is begun immediately following surgery.\n\n
+Surgery usually involves fixation of the fracture fragments with plates, screws or pins. \n\nSevere fractures with previous arthroscopy (joint degeneration) may require shoulder replacement. Mobilization with physical therapy is started immediately following surgery.\n\n
 
 <b>Humerus Shaft Fracture</b>\n\n
-A humerus shaft fracture may be treated with or without surgery, depending on the fracture pattern and associated injuries (i.e., nerve injury or open fracture).\n\n A temporary splint extending from the shoulder to the forearm and holding the elbow bent at 90 degrees can be used for initial management of the fracture.\n\n
+A humerus shaft fracture may be treated with or without surgery, depending on the fracture pattern and associated injuries (i.e., nerve injury or open fracture).\n\n A temporary splint extending from the shoulder to the forearm and holding the elbow bent at 90 degrees can be used for the initial management of the fracture.\n\n
 
 Nonoperative treatment usually includes the placement of fracture bracing that will be replaced by a cylindrical brace (Sarmiento brace) three to four weeks later that fits the upper arm while leaving the elbow free.\n\n The doctor will tell you how long to wear the cast or splint and will remove it at the right time.\n\n It may take several weeks to several months for the broken arm to heal completely.\n\n
 
-Rehabilitation involves gradually increasing activities to restore muscle strength, joint motion and flexibility.\n\n The patient’s cooperation is essential to the rehabilitation process. The patient must complete range of motion, strengthening and other exercises prescribed by the doctor on a daily basis.\n\n Rehabilitation will continue until the muscles, ligaments and other soft tissues perform normally.\n\n
+Rehabilitation involves gradually increasing activities to restore muscle strength, joint motion and flexibility.\n\n The patient’s cooperation is essential for the rehabilitation process. The patient must complete range of motion, strengthening and other exercises prescribed by the doctor on a daily basis.\n\n Rehabilitation will continue until the muscles, ligaments and other soft tissues perform normally.\n\n
 
 Surgery usually involves internal fixation of the fragments with plates, screws or a nail.\n\n The rehabilitation differs slightly from nonoperative treatment, with no splints or cast. The patient is usually given a sling for comfort and arm support.\n\n Elbow exercises may be started immediately after surgery, while shoulder exercises may be delayed for a few weeks based on the fracture pattern.\n\n
 
@@ -102,8 +113,16 @@ Surgery usually involves internal fixation of the fragments with plates, screws 
 \-<i> Table slides</i>\n\n
 
 
-        You should not feel pain during an exercise. Talk to your doctor or physio therapist
-        when you have any pain during exercising.\n\n
+        You should not experience any pain during an exercise. Talk to your doctor or physical therapist
+        when you have any pain during exercising.\n\n\n
+
+        <i>Disclaimer</i>\n
+        <i>Broken humerus injuries vary significantly in severity. This application was made as a guide to a humerus fracture rehabilitation program and we strongly recommend
+        any user of this application to consult and follow his/her doctor\'s or physical therapist\'s specific instructions on how to exercise based on his/her humerus fracture.\n\n
+            Kindly note this rehabilitation programme is meant for non-surgical injuries. \n\n Injuries that require surgical intervention will be followed by a specific rehabilitation protocol as per your doctor\'s or physical therapist\'s instructions.</i>\n\n
+
+
+
 
 
 
@@ -113,17 +132,17 @@ Surgery usually involves internal fixation of the fragments with plates, screws 
 
 </string>
 
-    <string name="developer">  <b>NB. Kindly note that the Humerus Rehab application was motivated by a real life incident that involved a car accident that broke my left humerus and hence i went through the rehabilitation programme under the doctors instructions and monitoring.</b>\n\n
+    <string name="developer">  <i>NB. Kindly note that the Humerus Rehab application was motivated by a real life incident that involved a car accident that broke my left humerus. I went through this rehabilitation programme under the doctor\'s instructions and monitoring.These exercises immensely contributed to my recovery.</i>\n\n
 
         <b>Developed by \: \n
         Titus Nangi\n
         titusnangi@gmail.com\n\n
     </b></string>
-    <string name="what_you_need_to_know_about_the_humerus">What you need to know about the Humerus</string>
+    <string name="what_you_need_to_know_about_the_humerus">What you need to know about this application</string>
     <string name="cancel">CANCEL</string>
     <string name="save_reminder">SAVE REMINDER</string>
     <string name="exercise_title">Exercise title</string>
-    <string name="exercise_details">Exercise details</string>
+    <string name="exercise_details">Enter reminder details</string>
     <string name="reminder">Schedule Exercise</string>
     <string name="save">SAVE</string>
     <string name="select_date">SELECT DATE</string>
@@ -136,6 +155,8 @@ Surgery usually involves internal fixation of the fragments with plates, screws 
     <string name="time_message">time message</string>
     <string name="create_event">CREATE EVENT</string>
     <string name="hello">Hello</string>
+    <string name="set_exercise_time_above">Set your exercising time above</string>
+    <string name="tap_to_speak_and_set_your_exercise_details_notification">Tap to speak</string>
 
 
 </resources>
