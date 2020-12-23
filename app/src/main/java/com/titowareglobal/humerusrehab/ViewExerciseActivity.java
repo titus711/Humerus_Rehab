@@ -147,7 +147,7 @@ public class ViewExerciseActivity extends AppCompatActivity implements TextToSpe
 
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(ViewExerciseActivity.this, "Voice Instructions starting in 5 seconds", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ViewExerciseActivity.this, "Voice instructions starting....", Toast.LENGTH_LONG).show();
 
                     speakOut();
 
@@ -201,7 +201,7 @@ public class ViewExerciseActivity extends AppCompatActivity implements TextToSpe
                 Log.e("TTS", "This Language is not supported");
             } else {
                 btnVoiceInstructions.setEnabled(true);
-                speakOut();
+                //speakOut();
             }
 
         } else {

@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:orientation="vertical"
     tools:context=".CalenderActivity">
 
-
-<!--    <EditText-->
-<!--        android:id="@+id/edit_title"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="@string/exercise_title"-->
-<!--        android:textColor="#039BE5"-->
-<!--        android:textSize="24sp"-->
-<!--        android:layout_marginTop="50dp"/>-->
-
-
-    <!--    <info.hoang8f.widget.FButton-->
-<!--        android:id="@+id/btn_cancel"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_marginLeft="0dp"-->
-<!--        android:layout_marginRight="0dp"-->
-<!--        android:layout_marginBottom="60dp"-->
-<!--        android:text="@string/cancel"-->
-<!--        android:textSize="24sp"-->
-<!--        android:textStyle="bold" />-->
 
     <ImageView
         android:id="@+id/btn_record"
@@ -40,28 +17,52 @@
         android:layout_gravity="center"
         android:background="#000"
         android:src="@mipmap/ic_mic_again"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
+        android:id="@+id/text_mic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tap_to_speak_and_set_your_exercise_details_notification"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_record"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
 
     <EditText
         android:id="@+id/edit_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:hint="@string/exercise_details"
         android:textColor="#000"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_record"
+        app:layout_constraintVertical_bias="0.241" />
 
     <info.hoang8f.widget.FButton
         android:id="@+id/btn_notify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="215dp"
         android:text="@string/save_reminder"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_content"
+        app:layout_constraintVertical_bias="0.952" />
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

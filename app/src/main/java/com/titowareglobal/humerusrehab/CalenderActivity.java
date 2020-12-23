@@ -139,7 +139,7 @@ public class CalenderActivity extends AppCompatActivity implements DatePickerDia
                 .large_icon(R.drawable.myhumerusapp)
                 .build();
 
-        Toast.makeText(CalenderActivity.this, "SAVED !!!!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(CalenderActivity.this, "Reminder saved!!!!", Toast.LENGTH_SHORT).show();
 
         finish();
 

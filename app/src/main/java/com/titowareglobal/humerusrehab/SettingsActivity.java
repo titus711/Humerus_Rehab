@@ -33,7 +33,6 @@ public class SettingsActivity extends AppCompatActivity {
     RadioButton mRdiEasy, mRdiMedium, mRdiHard;
     RadioGroup mRdiGroup;
     HumerusrehabDB mHumerusrehabDB;
-    ToggleButton mSwitchAlarm;
     //TimePicker mTimePicker;
 
     @Override
@@ -49,7 +48,6 @@ public class SettingsActivity extends AppCompatActivity {
         mRdiMedium = (RadioButton) findViewById(R.id.rdiMedium);
         mRdiHard = (RadioButton) findViewById(R.id.rdiHard);
 
-        mSwitchAlarm = (ToggleButton) findViewById(R.id.switchAlarm);
 
         //mTimePicker = (TimePicker) findViewById(R.id.timePicker);
 
@@ -63,8 +61,8 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 saveWorkOutMode();
-                saveAlarm(mSwitchAlarm.isChecked());
-                Toast.makeText(SettingsActivity.this, "SAVED !!!!", Toast.LENGTH_SHORT).show();
+//                saveAlarm(mSwitchAlarm.isChecked());
+                Toast.makeText(SettingsActivity.this, "Exercising time saved !!!!", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

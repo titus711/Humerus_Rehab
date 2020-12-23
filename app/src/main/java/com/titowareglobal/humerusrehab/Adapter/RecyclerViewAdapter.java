@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -47,7 +46,7 @@ class  RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClic
     @Override
     public void onClick(View view) {
         mItemClickListener.onClick(view,getAdapterPosition());
-
+//second error
     }
 }
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
@@ -83,8 +82,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
                 intent.putExtra("name",mExerciseList.get(position).getName());
                 intent.putExtra("my_Description",mExerciseList.get(position).getMyDescription());
 
-
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(intent);
+
             }
         });
 
