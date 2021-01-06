@@ -105,7 +105,7 @@ public class ViewExerciseActivity extends AppCompatActivity implements TextToSpe
                     }.start();
 
                 } else{
-                    Toast.makeText(ViewExerciseActivity.this, "Finished!!!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ViewExerciseActivity.this, "Finished", Toast.LENGTH_SHORT).show();
                     finish();
 
 
