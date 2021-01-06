@@ -66,15 +66,8 @@
 
     <info.hoang8f.widget.FButton
         android:id="@+id/btn_start"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="120dp"
         android:text="@string/start"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        style="@style/fbtn_style" />
 
     <info.hoang8f.widget.FButton
         android:id="@+id/btn_voice_instructions"
